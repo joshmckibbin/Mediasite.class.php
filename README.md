@@ -3,11 +3,16 @@ A simple PHP class for interacting with the Mediasite API
 
 ## Basic Setup
 ```
+// Include the class
+require 'Mediasite.class.php';
+
+// Settings
 $server = 'https://SERVER.mediasite.com/Mediasite';
 $apikey = 'apikey_string';
 $username = 'username';
 $password = 'password';
 
+// Initialize the class
 $ms = new Mediasite($server, $apikey, $username, $password);
 ```
 
